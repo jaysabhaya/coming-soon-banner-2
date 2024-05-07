@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/coming-soon-banner-2/static/css/main.499115cd.css",
+    "main.js": "/coming-soon-banner-2/static/js/main.3a4fd860.js",
+    "static/js/453.a957f69b.chunk.js": "/coming-soon-banner-2/static/js/453.a957f69b.chunk.js",
+    "static/media/bg.svg": "/coming-soon-banner-2/static/media/bg.d154b318d889cdd7ba09.svg",
+    "index.html": "/coming-soon-banner-2/index.html",
+    "main.499115cd.css.map": "/coming-soon-banner-2/static/css/main.499115cd.css.map",
+    "main.3a4fd860.js.map": "/coming-soon-banner-2/static/js/main.3a4fd860.js.map",
+    "453.a957f69b.chunk.js.map": "/coming-soon-banner-2/static/js/453.a957f69b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.499115cd.css",
+    "static/js/main.3a4fd860.js"
+  ]
+}
