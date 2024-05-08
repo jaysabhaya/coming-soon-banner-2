@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/coming-soon-banner-2/static/css/main.651c00eb.css",
+    "main.css": "/coming-soon-banner-2/static/css/main.95050555.css",
     "main.js": "/coming-soon-banner-2/static/js/main.dfcf927c.js",
     "static/js/453.a957f69b.chunk.js": "/coming-soon-banner-2/static/js/453.a957f69b.chunk.js",
     "static/media/bg.svg": "/coming-soon-banner-2/static/media/bg.d154b318d889cdd7ba09.svg",
     "static/media/giphy.gif": "/coming-soon-banner-2/static/media/giphy.975b35a16ca5ca14f3bb.gif",
     "index.html": "/coming-soon-banner-2/index.html",
-    "main.651c00eb.css.map": "/coming-soon-banner-2/static/css/main.651c00eb.css.map",
+    "main.95050555.css.map": "/coming-soon-banner-2/static/css/main.95050555.css.map",
     "main.dfcf927c.js.map": "/coming-soon-banner-2/static/js/main.dfcf927c.js.map",
     "453.a957f69b.chunk.js.map": "/coming-soon-banner-2/static/js/453.a957f69b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.651c00eb.css",
+    "static/css/main.95050555.css",
     "static/js/main.dfcf927c.js"
   ]
 }
