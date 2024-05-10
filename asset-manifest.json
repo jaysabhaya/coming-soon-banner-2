@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/coming-soon-banner-2/static/css/main.3a2f2e9b.css",
-    "main.js": "/coming-soon-banner-2/static/js/main.cec41e69.js",
+    "main.css": "/coming-soon-banner-2/static/css/main.def6a82d.css",
+    "main.js": "/coming-soon-banner-2/static/js/main.b88562ca.js",
     "static/js/453.a957f69b.chunk.js": "/coming-soon-banner-2/static/js/453.a957f69b.chunk.js",
     "static/media/bg.svg": "/coming-soon-banner-2/static/media/bg.d154b318d889cdd7ba09.svg",
     "static/media/giphy.gif": "/coming-soon-banner-2/static/media/giphy.975b35a16ca5ca14f3bb.gif",
     "index.html": "/coming-soon-banner-2/index.html",
-    "main.3a2f2e9b.css.map": "/coming-soon-banner-2/static/css/main.3a2f2e9b.css.map",
-    "main.cec41e69.js.map": "/coming-soon-banner-2/static/js/main.cec41e69.js.map",
+    "main.def6a82d.css.map": "/coming-soon-banner-2/static/css/main.def6a82d.css.map",
+    "main.b88562ca.js.map": "/coming-soon-banner-2/static/js/main.b88562ca.js.map",
     "453.a957f69b.chunk.js.map": "/coming-soon-banner-2/static/js/453.a957f69b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a2f2e9b.css",
-    "static/js/main.cec41e69.js"
+    "static/css/main.def6a82d.css",
+    "static/js/main.b88562ca.js"
   ]
 }
