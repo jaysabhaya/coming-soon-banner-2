@@ -1,0 +1,239 @@
+/* Base Styles */
+
+/* .container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #FFEADB;
+}
+
+.image-container {
+  width: 41vw;
+  max-height: 100vh;
+  box-sizing: border-box;
+  background-image: url('../src/images/bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+}
+
+.flip-clock {
+  --fcc-flip-duration: 0.5s;
+  --fcc-digit-block-width: 79px;
+  --fcc-digit-block-height: 120px;
+  --fcc-digit-border-radius: 100px;
+  --fcc-digit-font-size: 50px;
+  --fcc-digit-color: white;
+  --fcc-background: #2A150F;
+  size: 120px;
+  padding-bottom: 20px;
+}
+
+.flip-clock ._2EBbg {
+  border-radius: 10px;
+  outline: 0;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 85px 80px 38px 80px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  bottom: 0;
+  right: 6%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  width: 570px;
+}
+
+.input-container .notify-btn {
+  position: absolute;
+  right: 0;
+  margin: 5px;
+}
+
+.email-input {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 18px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 8px;
+}
+
+.email-input::placeholder {
+  color: #8B8B8B;
+}
+
+.notify-button {
+  width: 100%;
+  height: 70px;
+  padding: 21px 35px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2a150fdf;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.notify-button:hover {
+  background-color: #2A150F;
+}
+
+.clock_content {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-family: 'Laila', sans-serif;
+}
+
+.clock_content h1 {
+  color: #2A150F;
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 30px;
+  font-family: 'Laila', sans-serif;
+}
+
+.clock_content h4 {
+  color: var(--white-color);
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.clock_content h3 {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  background-color: var(--white-color);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  transform: translateY(-7px);
+  box-shadow: 0 15px 20px rgb(112, 212, 251);
+}
+
+.social-decoration {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-top: 20px;
+  justify-content: center;
+  outline: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 45px;
+  padding: 12px;
+  outline: none;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s ease 0s;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+}
+
+.social-decoration .social-icons svg:hover {
+  transform: translateY(0);
+}
+
+.social-decoration :hover {
+  align-items: center;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+} */
+
+/* Loading.css */
+/* .loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.loader {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../src/images/giphy.gif');
+  width: 250px;
+  height: 250px;
+} */
+
+
+/* Media Queries */
+
+/* @media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .time-container {
+    width: 100%;
+    padding: 20px;
+    bottom: auto;
+    right: auto;
+    position: static;
+  }
+
+  .input-container {
+    width: 90%;
+    max-width: 400px;
+  }
+} */
