@@ -19,21 +19,12 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  background-size: cover;
+  padding-left: 600px;
+  justify-content: center;
+  background-size: 100% 120%;
+  background-image: url('../src/images/bg-update.png');
   background-repeat: no-repeat;
   background-color: #FFEADB;
-}
-
-.image-container {
-  width: 41vw;
-  max-height: 100vh;
-  box-sizing: border-box;
-  background-image: url('../src/images/bg.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: flex-start;
 }
 
 .yellow-line {
@@ -136,7 +127,7 @@
 }
 
 .clock_content {
-  padding: 60px;
+  padding: 60px !important;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -247,27 +238,112 @@
 }
 
 
-/* Media Queries */
-/* @media only screen and (max-width: 768px) {
+
+@media (min-width: 900px) and (max-height: 780px) {
   .container {
-    flex-direction: column;
+    padding-left: 510px !important;
   }
 
-  .image-container {
-    width: 100%;
-    height: 50vh;
+  .yellow-line {
+    top: -6%;
   }
 
-  .time-container {
-    width: 100%;
-    padding: 20px;
-    bottom: auto;
-    right: auto;
-    position: static;
+  .flip-clock {
+    --fcc-digit-block-width: 65px !important;
+    --fcc-digit-block-height: 100px !important;
+    padding-bottom: 18px;
   }
 
   .input-container {
-    width: 90%;
-    max-width: 400px;
+    width: 450px !important;
   }
-} */
+
+
+  .time-container {
+    padding: 65px 60px 30px 60px !important;
+  }
+
+  .email-input {
+    width: 100% !important;
+    height: 65px !important;
+  }
+
+  .notify-button {
+    width: 100% !important;
+    height: 55px !important;
+    padding: 11px 31px !important;
+    font-size: 19px !important;
+  }
+
+  .clock_content {
+    padding: 58px !important;
+  }
+
+  .clock_content h1 {
+    font-size: 59px !important;
+    margin-top: 5px !important;
+  }
+
+  .clock_content h4 {
+    font-size: 21px !important;
+  }
+
+  .clock_content h3 {
+    font-size: 34px !important;
+  }
+
+}
+
+@media(min-width: 900px) and (max-height: 680px) {
+  .container {
+    padding-left: 425px !important;
+  }
+
+  .yellow-line {
+    top: -6%;
+  }
+
+  .flip-clock {
+    --fcc-digit-block-width: 50px !important;
+    --fcc-digit-block-height: 65px !important;
+    font-size: 30px !important;
+    padding-bottom: 14px;
+  }
+
+  .input-container {
+    width: 380px !important;
+  }
+
+  .time-container {
+    padding: 50px 45px 26px 45px !important;
+  }
+
+  .email-input {
+    width: 100% !important;
+    height: 55px !important;
+  }
+
+  .notify-button {
+    width: 100% !important;
+    height: 45px !important;
+    padding: 11px 20px !important;
+    font-size: 17px !important;
+  }
+
+  .clock_content {
+    padding: 58px !important;
+  }
+
+  .clock_content h1 {
+    font-size: 45px !important;
+    margin-top: 10px !important;
+  }
+
+  .clock_content h4 {
+    font-size: 18px !important;
+  }
+
+  .clock_content h3 {
+    font-size: 26px !important;
+  }
+}

@@ -23,8 +23,8 @@ const queries = {
 function App() {
   const [loading, setLoading] = useState(true);
 
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-  const Mobile = useMediaQuery({ query: '(max-width: 375px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 900px)' })
+  const Mobile = useMediaQuery({ query: '(max-width: 430px)' })
 
   useEffect(() => {
     setTimeout(() => {
@@ -83,12 +83,9 @@ function App() {
               </div>
               <div className='isTabletOrMobile-yellow-line'></div>
             </div>
-            <div className="isTabletOrMobile-image-container">
-            </div>
           </section> :
             <section className="container">
-              <div className="image-container">
-              </div>
+
               <motion.div className="clock_content"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}

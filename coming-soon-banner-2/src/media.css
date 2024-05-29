@@ -1,14 +1,19 @@
 @media(max-width:1540px) {
+
+    .container {
+        padding-left: 530px;
+    }
+
     .clock_content h1 {
-        font-size: 62px;
+        font-size: 60px !important;
     }
 
     .clock_content h3 {
-        font-size: 36px;
+        font-size: 34px !important;
     }
 
     .clock_content h4 {
-        font-size: 24px;
+        font-size: 22px !important;
     }
 
     .flip-clock {
@@ -79,6 +84,11 @@
 }
 
 @media(max-width:1399px) {
+
+    .container {
+        padding-left: 500px;
+    }
+
     .clock_content h1 {
         font-size: 55px;
     }
@@ -102,20 +112,7 @@
     }
 
     .time-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 75px 70px 32px 70px;
-        box-sizing: border-box;
-        background-repeat: no-repeat;
-        background-color: white;
-        background-size: contain;
-        background-position: center;
-        position: absolute;
-        bottom: 0;
-        right: 26%;
-        transform: translateX(26%);
+        padding: 65px 60px 28px 60px !important;
     }
 
     .input-container .notify-btn {
@@ -156,46 +153,83 @@
         background-color: #2A150F;
     }
 
-    .isTabletOrMobile-time-container {
-        top: 40% !important;
-        padding: 30px 20px 12px 20px !important;
+
+}
+
+@media(max-width: 1240px) {
+
+    .container {
+        padding-left: 450px !important;
+    }
+
+    .clock_content h1 {
+        font-size: 50px !important;
+    }
+
+    .clock_content h3 {
+        font-size: 28px !important;
+    }
+
+    .clock_content h4 {
+        font-size: 18px !important;
+    }
+
+    .clock_content {
+        padding: 50px !important;
+    }
+
+    .flip-clock {
+        --fcc-digit-block-width: 55px !important;
+        --fcc-digit-block-height: 80px !important;
+        --fcc-digit-font-size: 38px !important;
+    }
+
+}
+
+@media(max-width: 1068px) {
+    .container {
+        padding-left: 370px !important;
+    }
+
+    .clock_content h1 {
+        font-size: 40px !important;
+    }
+
+    .clock_content h3 {
+        font-size: 22px !important;
+    }
+
+    .clock_content h4 {
+        font-size: 14px !important;
+    }
+
+    .flip-clock {
+        --fcc-digit-block-width: 50px !important;
+        --fcc-digit-block-height: 75px !important;
+        --fcc-digit-font-size: 38px !important;
+    }
+
+    .input-container {
+        width: 360px;
+    }
+
+    .time-container {
+        padding: 55px 30px 32px 30px !important;
+    }
+
+    .email-input {
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .notify-button {
+        height: 50px;
+        padding: 0px 35px;
+        font-size: 18px;
     }
 }
 
-@media(max-width:1199px) {
-    .isTabletOrMobile-clock_content {
-        padding: 65px !important;
-    }
-
-    .isTabletOrMobile-time-container {
-        top: 45% !important;
-        padding: 30px 20px 12px 20px !important;
-    }
-
-    .isTabletOrMobile-clock_content h1 {
-        margin-top: 20px !important;
-        font-size: 60px !important;
-    }
-
-    .isTabletOrMobile-clock_content h3 {
-        font-size: 32px !important;
-    }
-
-    .isTabletOrMobile-clock_content h4 {
-        font-size: 19px !important;
-    }
-
-    .isTabletOrMobile-social-decoration {
-        margin-bottom: 50px;
-    }
-
-    .isTabletOrMobile-image-container {
-        height: 54vh !important;
-    }
-}
-
-@media(max-width: 991px) {
-
+@media(max-width: 900px) {
     .isTabletOrMobile-social-decoration {
         margin-bottom: 60px;
     }
@@ -206,44 +240,15 @@
 
     .isTabletOrMobile-clock_content h1 {
         margin-top: 0px !important;
-        font-size: 48px !important;
+        font-size: 50px !important;
     }
 
     .isTabletOrMobile-clock_content h3 {
-        font-size: 24px !important;
+        font-size: 26px !important;
     }
 
     .isTabletOrMobile-clock_content h4 {
-        font-size: 14px !important;
-    }
-
-    .isTabletOrMobile-time-container {
-        top: 37% !important;
-    }
-
-}
-
-@media(max-width: 912px) {
-
-    .isTabletOrMobile-social-decoration {
-        margin-bottom: 60px;
-    }
-
-    .isTabletOrMobile-clock_content {
-        padding: 74px !important;
-    }
-
-    .isTabletOrMobile-clock_content h1 {
-        margin-top: 0px !important;
-        font-size: 48px !important;
-    }
-
-    .isTabletOrMobile-clock_content h3 {
-        font-size: 24px !important;
-    }
-
-    .isTabletOrMobile-clock_content h4 {
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
 
     .isTabletOrMobile-time-container {
@@ -309,7 +314,7 @@
     }
 
     .isTabletOrMobile-social-decoration {
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
 
     .isTabletOrMobile-flip-clock ._2EBbg {
@@ -341,22 +346,22 @@
     }
 }
 
-@media(max-width: 426px) {
+@media(max-width: 430px) {
 
     .isTabletOrMobile-clock_content {
-        padding: 40px !important;
+        padding: 46px !important;
     }
 
     .isTabletOrMobile-clock_content h1 {
-        font-size: 26px !important;
+        font-size: 32px !important;
     }
 
     .isTabletOrMobile-clock_content h3 {
-        font-size: 16px !important;
+        font-size: 19px !important;
     }
 
     .isTabletOrMobile-clock_content h4 {
-        font-size: 10px !important;
+        font-size: 13px !important;
     }
 
     .isTabletOrMobile-social-icons {
@@ -424,10 +429,10 @@
     }
 }
 
-@media(max-width: 326px) {
+@media(max-width: 368px) {
 
     .isTabletOrMobile-clock_content {
-        padding: 20px !important;
+        padding: 35px !important;
     }
 
     .isTabletOrMobile-clock_content h1 {
@@ -435,11 +440,11 @@
     }
 
     .isTabletOrMobile-clock_content h3 {
-        font-size: 16px !important;
+        font-size: 17px !important;
     }
 
     .isTabletOrMobile-clock_content h4 {
-        font-size: 11px !important;
+        font-size: 12px !important;
     }
 
     .social-icons {
