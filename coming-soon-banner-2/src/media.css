@@ -259,6 +259,10 @@
         height: 57.2vh !important;
     }
 
+    .isTabletOrMobile-email-input {
+        padding-right: 100px !important;
+    }
+
 }
 
 @media(max-width: 767px) {
@@ -277,6 +281,10 @@
     .isTabletOrMobile-time-container {
         top: 38% !important;
         padding: 30px 20px 12px 20px !important;
+    }
+
+    .isTabletOrMobile-email-input {
+        padding-right: 100px !important;
     }
 }
 
@@ -334,6 +342,8 @@
         height: 30px !important;
         padding: 15px !important;
         font-size: 12px !important;
+        padding-right: 80px !important;
+
     }
 
     .isTabletOrMobile-input-container .isTabletOrMobile-notify-btn {

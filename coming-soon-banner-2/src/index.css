@@ -95,6 +95,7 @@
 .email-input {
   width: 100%;
   height: 80px;
+  padding-right: 180px !important;
   border: 1px solid #ccc;
   margin-top: 22px;
   border-radius: 4px;
